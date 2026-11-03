@@ -1,0 +1,9 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.mykemueller1-ctrl/action-shift-mcp",
+  "title": "Action Shift",
+  "description": "Reads a restaurant close and returns one finding and a 3-step next move before the next shift.",
+  "version": "1.0.0",
+  "websiteUrl": "https://action-shift-mcp.vercel.app",
+  "remotes": [ { "type": "streamable-http", "url": "https://action-shift-mcp.vercel.app/mcp" } ]
+}

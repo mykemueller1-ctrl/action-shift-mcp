@@ -1,0 +1,1 @@
+{"rewrites":[{"source":"/mcp","destination":"/api/mcp"},{"source":"/","destination":"/api/site?p="},{"source":"/:p((?!api/).*)","destination":"/api/site?p=:p"}]}
